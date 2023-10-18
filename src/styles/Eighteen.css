@@ -1,0 +1,32 @@
+.menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu.open{
+    display: block;
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        background-color: #333;
+        position: absolute;
+        top: 40px;
+        right:0;
+        width: 100%;
+    }
+    .menu li{
+        padding: 10px;
+        color: #fff;
+    }
+}
