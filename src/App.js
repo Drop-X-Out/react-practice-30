@@ -22,6 +22,18 @@ import NineteenComp from './NineteenComp'
 import { ThemeProvider } from './ThemeContext'
 import Twenty from './Twenty'
 import { CartProvider } from './CartContext'
+import TwentyOne from './TwentyOne'
+import TwentyTwo from './TwentyTwo'
+import TwentyThree from './TwentyThree'
+import TwentyFour from './TwentyFour'
+import { AuthProvider } from './AuthContext'
+import TwentyFive from './TwentyFive'
+import TwentySix from './TwentySix'
+import { LocalizationProvider } from './LocalizationContext'
+import TwentySeven from './TwentySeven'
+import TwentyEight from './TwentyEight'
+import TwentyNine from './TwentyNine'
+import Thirty from './Thirty'
 
 export default function App() {
 
@@ -52,11 +64,28 @@ export default function App() {
       <NineteenComp/>
         </div>
       </ThemeProvider> */}
-      
-      <CartProvider>
+      {/* <CartProvider>
       <Twenty/>
-      </CartProvider>
+      </CartProvider> */}
+
+      {/* <TwentyOne/> */}
+      {/* <TwentyTwo/> */}
+      {/* <TwentyThree/> */}
+      {/* <AuthProvider>
+      <TwentyFour/>
+      </AuthProvider> */}
       
+      {/* <TwentyFive/> */}
+      {/* <LocalizationProvider>
+      <TwentySix/>
+      </LocalizationProvider> */}
+
+
+      {/* <TwentySeven/> */}
+      {/* <TwentyEight/> */}
+
+      {/* <TwentyNine/> */}
+      <Thirty/>
     </div>
   )
 }
